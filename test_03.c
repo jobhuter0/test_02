@@ -13,14 +13,8 @@ void print(unsigned int n)
 
 int main()
 {
-	char arr0[] = { 0 };
-	scanf("%s", &arr0);
-	printf("%s \n", arr0);
-	int i = 0;
-	int a = sizeof(arr0) / sizeof(arr0[0]);
-	for (i = 0; i < a; i++)
-	{
-		printf("Êä³ö:%d", arr0[i]);
-	}
+	unsigned int i;
+	scanf("%d",&i);
+	print(i);
 	return 0;
 }
